@@ -12,9 +12,18 @@ public class Example {
     System.out.println("Enter Something: ");
 
     String userResponse = scan.nextLine();
-    System.out.println("You Entered: " + userResponse);
+
+    System.out.println("You Entered: " + "\"" + userResponse + "\"");
+    //      TAKES IN THE USER RESPONSE AND RETURNS IT
 
     System.out.println("\"" + userResponse + "\"" + checkNumber(userResponse));
+    //       TAKES IN THE USER RESPONSE AND CHECK FOR NUMBERS DUE TO FUNCTION WRITTEN BELOW.
+
+    System.out.println("Flipped Case: " + StringUtils.swapCase(userResponse));
+    //       THIS WILL FLIP MESSAGE
+
+    System.out.println("reversed: " + StringUtils.reverse(userResponse));
+    //       THIS WILL REVERSE MESSAGE
     }
 
     public static String checkNumber(String check) {
