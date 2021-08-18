@@ -28,6 +28,10 @@ public class Example {
 
     public static String checkNumber(String check) {
         return (StringUtils.isNumeric(check)) ? " is a number" : " is not a number";
+//        QUESTION MARK WILL CHECK FOR NUMBER, It is the short-hand solution of the IF
+//        ... ELSE statement in Java and can be used as a single line statement for decision making
+//            COLON ( : ) = TRUE OR FALSE
+//        https://www.delftstack.com/howto/java/java-question-mark-colon/
     }
 
 }
