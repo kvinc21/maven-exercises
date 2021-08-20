@@ -16,7 +16,35 @@ public class Example {
     System.out.println("You Entered: " + "\"" + userResponse + "\"");
     //      TAKES IN THE USER RESPONSE AND RETURNS IT
 
-    System.out.println("\"" + userResponse + "\"" + checkNumber(userResponse));
+    System.out.println("\"" + userResponse + "\"" + ch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            eckNumber(userResponse));
     //       TAKES IN THE USER RESPONSE AND CHECK FOR NUMBERS DUE TO FUNCTION WRITTEN BELOW.
 
     System.out.println("Flipped Case: " + StringUtils.swapCase(userResponse));
